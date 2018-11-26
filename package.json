@@ -1,0 +1,20 @@
+{
+  "name": "vanillajs-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --port 3001"
+  },
+  "author": "sarmadsangi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/runtime": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "parcel-bundler": "^1.10.2",
+    "postcss-modules": "^1.4.1"
+  }
+}
